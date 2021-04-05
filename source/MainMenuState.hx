@@ -15,7 +15,7 @@ import io.newgrounds.NG;
 import lime.app.Application;
 
 #if desktop
-import Discord.DiscordClient;
+/*import Discord.DiscordClient;*/
 #end
 
 using StringTools;
@@ -48,7 +48,7 @@ class MainMenuState extends MusicBeatState
 	{
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
+		/*DiscordClient.changePresence("In the Menus", null);*/
 		#end
 
 		if (!FlxG.sound.music.playing)

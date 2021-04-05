@@ -24,4 +24,6 @@
 	<SubTexture name="week 50001" x="374" y="569" width="364" height="91"/>
 	<SubTexture name="week2 select0000" x="0" y="670" width="361" height="87"/>
 	<SubTexture name="week2 select0001" x="371" y="670" width="361" height="87"/>
+	<SubTexture name="Week 70000" x="0" y="374" width="359" height="92"/>
+	<SubTexture name="Week 70001" x="369" y="374" width="359" height="92"/>
 </TextureAtlas>

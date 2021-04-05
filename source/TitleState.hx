@@ -25,7 +25,7 @@ import lime.app.Application;
 import openfl.Assets;
 
 #if desktop
-import Discord.DiscordClient;
+/*import Discord.DiscordClient;*/
 import sys.thread.Thread;
 #end
 
@@ -60,10 +60,10 @@ class TitleState extends MusicBeatState
 		PlayerSettings.init();
 
 		#if desktop
-		DiscordClient.initialize();
+		/*DiscordClient.initialize();*/
 
 		Application.current.onExit.add (function (exitCode) {
-			DiscordClient.shutdown();
+			/*DiscordClient.shutdown();*/
 		 });
 		 
 		#end

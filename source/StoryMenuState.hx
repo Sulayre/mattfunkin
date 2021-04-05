@@ -14,7 +14,7 @@ import flixel.util.FlxTimer;
 import lime.net.curl.CURLCode;
 
 #if desktop
-import Discord.DiscordClient;
+/*import Discord.DiscordClient;*/
 #end
 
 using StringTools;
@@ -30,11 +30,12 @@ class StoryMenuState extends MusicBeatState
 		['Pico', 'Philly', "Blammed"],
 		['Satin-Panties', "High", "Milf"],
 		['Cocoa', 'Eggnog', 'Winter-Horrorland'],
-		['Senpai', 'Roses', 'Thorns']
+		['Senpai', 'Roses', 'Thorns'],
+		['Light-It-Up','Ruckus','Target-Practice']
 	];
 	var curDifficulty:Int = 1;
 
-	public static var weekUnlocked:Array<Bool> = [true, true, true, true, true, true, true];
+	public static var weekUnlocked:Array<Bool> = [true, true, true, true, true, true, true, true];
 
 	var weekCharacters:Array<Dynamic> = [
 		['gf', 'bf', ''],
@@ -43,7 +44,8 @@ class StoryMenuState extends MusicBeatState
 		['pico', 'bf', 'gf'],
 		['mom', 'bf', 'gf'],
 		['parents-christmas', 'bf', 'gf'],
-		['senpai', 'bf', 'gf']
+		['senpai', 'bf', 'gf'],
+		['matt', 'bf', '']
 	];
 
 	var weekNames:Array<String> = [
@@ -53,7 +55,8 @@ class StoryMenuState extends MusicBeatState
 		"PICO",
 		"MOMMY MUST MURDER",
 		"RED SNOW",
-		"hating simulator ft. moawling"
+		"hating simulator ft. moawling",
+		"Wii Funkin'"
 	];
 
 	var txtWeekTitle:FlxText;
@@ -76,7 +79,7 @@ class StoryMenuState extends MusicBeatState
 	{
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
+		/*DiscordClient.changePresence("In the Menus", null);*/
 		#end
 
 		transIn = FlxTransitionableState.defaultTransIn;

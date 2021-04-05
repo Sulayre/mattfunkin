@@ -12,7 +12,7 @@ import lime.utils.Assets;
 
 
 #if desktop
-import Discord.DiscordClient;
+/*import Discord.DiscordClient;*/
 #end
 
 using StringTools;
@@ -55,7 +55,7 @@ class FreeplayState extends MusicBeatState
 
 		 #if desktop
 		 // Updating Discord Rich Presence
-		 DiscordClient.changePresence("In the Menus", null);
+		 /*DiscordClient.changePresence("In the Menus", null);*/
 		 #end
 
 		var isDebug:Bool = false;
